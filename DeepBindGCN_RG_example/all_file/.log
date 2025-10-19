@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "read_smi_protein_nnn.py", line 8, in <module>
+    from torch_geometric.data import InMemoryDataset, DataLoader
+  File "/home/virtualguard/miniforge3/envs/DeepBindGCN/lib/python3.7/site-packages/torch_geometric/__init__.py", line 1, in <module>
+    import torch_geometric.utils
+  File "/home/virtualguard/miniforge3/envs/DeepBindGCN/lib/python3.7/site-packages/torch_geometric/utils/__init__.py", line 3, in <module>
+    from .scatter import scatter
+  File "/home/virtualguard/miniforge3/envs/DeepBindGCN/lib/python3.7/site-packages/torch_geometric/utils/scatter.py", line 4, in <module>
+    import torch
+  File "/home/virtualguard/miniforge3/envs/DeepBindGCN/lib/python3.7/site-packages/torch/__init__.py", line 218, in <module>
+    from torch._C import *  # noqa: F403
+ImportError: /home/virtualguard/miniforge3/envs/DeepBindGCN/lib/python3.7/site-packages/torch/lib/libtorch_cpu.so: undefined symbol: iJIT_NotifyEvent
