@@ -134,9 +134,9 @@ def  pdb_graph(pdbfile):
      for key2, value2 in Pposition.items():
          if key2>key1:
             a = np.array(value1)
-            a1 = a.astype(np.float)
+            a1 = a.astype(np.float64)
             b = np.array(value2)
-            b1 = b.astype(np.float)
+            b1 = b.astype(np.float64)
             xx=np.subtract(a1,b1)
             tem=np.square(xx)
             tem1=np.sum(tem)

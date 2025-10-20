@@ -35,7 +35,26 @@ cd ..
 ### BC
 
 ```bash
+cd DeepBindGCN_BC_example
+```
+
+```bash
 cd all_file
-uv run bash run_all_dic.bash
+bash run_all_dic.bash
 cd ..
 ```
+
+```bash
+cd pocket
+uv run extract_pocket.py 4q9v
+cd ..
+```
+
+```bash
+cd all_file
+bash run_all_n_add.bash
+cd ..
+```
+
+While running `run_all_n_add.bash`, there was some issue in the original bash script.
+
