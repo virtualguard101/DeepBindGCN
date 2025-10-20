@@ -1,0 +1,18 @@
+[project]
+name = "deepbindgcn"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.7",
+    "networkx>=3.4.2",
+    "numpy>=2.2.6",
+    "pandas>=2.3.3",
+    "rdkit-pypi>=2022.9.5",
+    "scikit-learn>=1.7.2",
+    "torch>=2.9.0",
+    "torch-geometric>=2.7.0",
+    "torchaudio>=2.9.0",
+    "torchvision>=0.24.0",
+]

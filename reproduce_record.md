@@ -1,8 +1,6 @@
 # Reproduce Record
 
-## 2025-10-20
-
-### Environment Configuration
+## Environment Configuration
 
 - use `uv` to manage the environment
 
@@ -18,16 +16,23 @@
     uv add torch-geometric
     ```
 
-### Download the pre-trained model
+## Download the pre-trained model
 
 ```bash
+cd DeepBindGCN_BC_example
 wget https://github.com/haiping1010/DeepBindGCN/releases/download/v1.0.0/full_model_out2000_BC.model
-wget https://github.com/haiping1010/DeepBindGCN/releases/download/v1.0.0/full_model_out2000_RG.model
+cd ..
 ```
 
-### Pre-process the data
+```bash
+cd DeepBindGCN_RG_example
+wget https://github.com/haiping1010/DeepBindGCN/releases/download/v1.0.0/full_model_out2000_RG.model
+cd ..
+```
 
-#### BC
+## Pre-process the data
+
+### BC
 
 ```bash
 cd all_file
